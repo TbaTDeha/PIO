@@ -2,9 +2,11 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
+
     private static final int TOTALRETURN = -1;
 
     private int[] numbers = new int[12];
+
 
     public int total = TOTALRETURN;
 
@@ -51,6 +53,11 @@ public class DefaultCountingOutRhymer {
         if (callCheck())
             return TOTALRETURN;
         return numbers[total--];
+    }
+
+    public int getTotal()
+    {
+        return total;
     }
 
 }
