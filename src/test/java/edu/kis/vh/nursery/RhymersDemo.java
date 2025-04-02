@@ -36,7 +36,7 @@ class RhymersDemo {
             for (int j = 0; j < 3; j++)
                 rhymers[j].countIn(i);
     }
-
+    
     private static void testRhymers(Rhymersfactory factory) {
         DefaultCountingOutRhymer[] rhymers = { factory.getStandardRhymer(), factory.getFalseRhymer(),
             factory.getFIFORhymer(), factory.getHanoiRhymer()};

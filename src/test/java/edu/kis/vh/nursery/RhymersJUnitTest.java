@@ -74,5 +74,24 @@ public class RhymersJUnitTest {
         result = rhymer.countOut();
         Assert.assertEquals(EMPTY_STACK_VALUE, result);
     }
+    /*
+    -------------------------------------------------------
+    T E S T S
+    -------------------------------------------------------
+    User program running
+    Running edu.kis.vh.nursery.RhymersJUnitTest
+    Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s -- in edu.kis.vh.nursery.RhymersJUnitTest
 
+    Results:
+
+    Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+    User program finished
+    ------------------------------------------------------------------------
+    BUILD SUCCESS
+    ------------------------------------------------------------------------
+    Total time:  2.758 s
+    Finished at: 2025-04-02T11:03:53+02:00
+    ------------------------------------------------------------------------
+    */
 }
